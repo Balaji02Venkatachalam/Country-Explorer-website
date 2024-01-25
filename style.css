@@ -1,0 +1,165 @@
+*{
+    margin:0;
+    padding:0;
+    }
+    section{
+        background-color:rgba(0,0,0,0);
+        background-image: url("./assests/globe\ with\ aeroplane.png");
+        background-position:center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    ul,li{
+        display:inline;
+    
+    }
+    nav{
+    padding:15px;
+    margin-bottom: 60px;
+    padding-top:20px;
+    
+    }
+    ul{
+        margin-left:75%;
+    }
+    li
+    {
+        cursor: pointer;
+        color:#182145;
+        margin-right: 40px;
+        font-size: 20px;
+        padding:10px;
+        margin-top:10px;
+    }
+    li:hover{
+        color:white;
+    }
+    h2{
+        color:black;
+        font-size:65px;
+        padding-left:60px;
+        width:30%;
+        display:inline-block;
+        margin-top:150px;
+    }
+    .box{
+        display:inline-block;
+        height:400px;
+        width:300px;
+        background-color:rgba(255,255,255,0.7);
+        border-radius:15px;
+        padding: 30px;
+        margin-left:350px;
+        margin-top:30px;
+        margin-bottom:70px;
+    }
+    h1{
+    
+        background-color:#97C4EE;
+        color:#182145;
+        border-radius:12px;
+        border-style:solid;
+        border-width:0px;
+        border-color:#97C4EE;
+        width:200px;
+        height:30px;
+        text-align:center;
+        margin-top:50px;
+        border-radius:12px;
+        margin-left:45px;
+    }
+    input{
+        display:block;
+        background-color:#97C4EE;
+        color:#182145;
+        border-width:0px;
+        border-style:solid;
+        border-color:#97C4EE;
+        border-radius:12px;
+        height:30px;
+        margin-top:50px;
+        margin-left:20px;
+        text-align:center;
+        width:250px;
+    }
+    a
+    {
+        display:inline-block;
+        text-decoration: none;
+        color:#182145;
+    }
+    .box a:hover{
+        color:#97C4EE;
+    }
+    .createaccount{
+        margin-top:60px;
+       /* margin-left: 10px;*/
+        text-align: left;
+    
+    }
+    .forgotaccount{
+        margin-top:60px;
+        display:inline-block;
+        /*margin-right: 10px;*/
+        text-align: right;
+        margin-left:70px;
+    }
+    footer{
+       background-color:#182145;
+    }
+    .Query{
+        color:#97C4EE;
+        display:block;
+       padding-bottom:10px;
+        margin-left:10px;
+        padding-top:25px;
+        padding-left:20px;
+    }
+    a.footerlinks{
+        text-decoration:none;
+        color:#97C4EE;
+        padding-top:20px;
+        padding-left:20px;
+        margin-left:10px;
+        padding-bottom: 10px;
+    }
+    hr{
+        width:40%;
+        display:inline-block;
+        background-color:#97C4EE;
+        border: none;
+        height: 2px;
+       
+    }
+    .fa {
+        padding: 10px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        margin: 5px;
+        color:#182145;
+        border: solid 1px #97C4EE;
+        background-color:#97C4EE;
+        border-radius: 5px;
+      }
+    .fa:hover{
+        color:white;
+    }
+    .footerlogo{
+        text-align:center;
+        padding:10px;
+        color:#97C4EE;
+        font-size:20px;
+    
+    }
+    .footerlogo a{
+        color:#97C4EE;
+        padding:10px;
+    
+    }
+    .footerlogo a:hover{
+        color:white;
+    }
+    a:hover{
+        color:white;
+    }
