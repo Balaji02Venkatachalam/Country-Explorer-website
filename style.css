@@ -3,24 +3,23 @@
     padding:0;
     }
     section{
-        background-color:rgba(0,0,0,0);
-        background-image: url("./assests/globe\ with\ aeroplane.png");
+        background: linear-gradient(to top,rgba(0,0,0,0.8),rgba(245, 245, 245, 0.329)),url("./assests/globe\ with\ aeroplane.png");
         background-position:center;
         background-size: cover;
         background-repeat: no-repeat;
     }
     ul,li{
-        display:inline;
+        display:inline-block;
     
     }
     nav{
     padding:15px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     padding-top:20px;
-    
+
     }
     ul{
-        margin-left:75%;
+        float: right;
     }
     li
     {
@@ -33,25 +32,29 @@
     }
     li:hover{
         color:white;
+        background-color:#182145;
+        border-radius:20px;
     }
     h2{
-        color:black;
+        color:white;
         font-size:65px;
         padding-left:60px;
         width:30%;
         display:inline-block;
-        margin-top:150px;
+       padding-bottom:50px;
+        text-align: justify;
     }
     .box{
         display:inline-block;
         height:400px;
         width:300px;
-        background-color:rgba(255,255,255,0.7);
+        background-color:rgba(255,255,255,0.3);
         border-radius:15px;
         padding: 30px;
         margin-left:350px;
         margin-top:30px;
         margin-bottom:70px;
+       
     }
     h1{
     
@@ -80,13 +83,20 @@
         margin-top:50px;
         margin-left:20px;
         text-align:center;
+        border-color:#97C4EE;
+        border-style:solid;
+        border-width:0px;
         width:250px;
     }
+    
     a
     {
         display:inline-block;
         text-decoration: none;
         color:#182145;
+    }
+    a:active{
+        opacity:0.7;
     }
     .box a:hover{
         color:#97C4EE;
@@ -118,10 +128,16 @@
     a.footerlinks{
         text-decoration:none;
         color:#97C4EE;
-        padding-top:20px;
+        padding-top:10px;
         padding-left:20px;
         margin-left:10px;
+        padding-right:20px;
         padding-bottom: 10px;
+    }
+    a.footerlinks:hover{
+        color:white;
+        background-color:#97C4EE;
+        border-radius:12px;
     }
     hr{
         width:40%;
