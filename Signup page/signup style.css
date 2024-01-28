@@ -1,22 +1,21 @@
 *{
     margin:0;
     padding:0;
+    font-family: none;
     }
     section{
-        background: linear-gradient(to top,rgba(0,0,0,0.8),rgba(245, 245, 245, 0.329)),url("./assests/globe\ with\ aeroplane.png");
+        background: linear-gradient(to top,rgba(0,0,0,0.8),rgba(245, 245, 245, 0.329)),url("../assests/globe\ with\ aeroplane.png");
         background-position:center;
         background-size: cover;
         background-repeat: no-repeat;
     }
     ul,li{
         display:inline-block;
-    
     }
     nav{
     padding:15px;
     margin-bottom: 40px;
     padding-top:20px;
-
     }
     ul{
         float: right;
@@ -43,19 +42,38 @@
         display:inline-block;
        padding-bottom:50px;
         text-align: justify;
+    }
+    .checkbox{
+        height:15px;
+        width:15px;
+        margin-top:12px;
+        border-color:black;
+        color:white;
+        margin-left:0px;
+        display:inline-block;
+        position:relative;
+        top:2px;
+    }
+    .box > p{
+        display:inline-block;
+        text-align:justify;
+        font-size:15px;
+        color:#182145;
         position: relative;
-        bottom: 40px;
+        left:20px;
+        top:-17px;
     }
     .box{
         display:inline-block;
-        height:400px;
+        height:450px;
         width:300px;
         background-color:rgba(255,255,255,0.3);
         border-radius:15px;
+        position: relative;
+        left:38%;
         padding: 30px;
-        position:relative;
-       left:270px;
-      top: 30px;
+        padding-top:20px;
+        margin-top:5px;
         margin-bottom:70px;
         box-shadow: 2px 2px rgba(0,0,0,0.3);
        
@@ -66,16 +84,25 @@
         padding:5px;
         position:relative;
         text-align: center;
-        left: 220px;
-        top: 30px;
+        left: 250px;
+        top: 5px;
         font-weight: bolder;
         border-radius: 12px;
         border-color:#182145;
         display: block;
     }
+    label{
+        display:block;
+        color:rgba(0,0,0,0.7);
+        font-size: 20px;
+        position:relative;
+       top:30px;
+       margin-bottom:10px;
+       font-weight: bold;
+
+    }
     h1{
-    
-        color:#97C4EE;
+    color:#97C4EE;
         background-color:#182145;
         border-radius:12px;
         border-style:solid;
@@ -84,52 +111,38 @@
         width:200px;
         height:30px;
         text-align:center;
-        margin-top:50px;
+        margin-top:5px;
         border-radius:12px;
         margin-left:45px;
     }
+
     input{
         display:block;
-        color:#97C4EE;
+color:#97C4EE;
         background-color:#182145;
         border-width:0px;
         border-style:solid;
-        border-color:#182145;
         border-radius:12px;
         height:30px;
-        margin-top:50px;
+        margin-top:30px;
         margin-left:20px;
         text-align:center;
+        border-color:#182145;
         border-style:solid;
         border-width:0px;
-        width:250px;
+        width:220px;
     }
-    
+    .box p{
+        color: rgba(245, 245, 245, 0.7);
+    }
     a
     {
         display:inline-block;
         text-decoration: none;
         color:#182145;
     }
-
     a:active{
         opacity:0.7;
-    }
-    .box a:hover{
-    color:white;
-    }
-    .createaccount{
-        margin-top:60px;
-       /* margin-left: 10px;*/
-        text-align: left;
-    
-    }
-    .forgotaccount{
-        margin-top:60px;
-        display:inline-block;
-        /*margin-right: 10px;*/
-        text-align: right;
-        margin-left:70px;
     }
     footer{
        background-color:#182145;

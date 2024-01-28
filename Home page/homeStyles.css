@@ -1,0 +1,51 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+.NavBar{
+    background:linear-gradient(to bottom , rgb(151,196,238),white);
+    padding:15px;
+    margin-bottom: 40px;
+    padding-top:20px;
+}
+ul,li{
+    display:inline-block;
+    font-size:20px;
+    text-align:center;
+}
+img{
+    display:inline-block;
+}
+ul{
+    position:absolute;
+    right:50px; 
+}
+li.location{
+    position:relative;
+    right:80px;
+
+}
+li.p:hover i{
+    
+    color:white;
+
+}
+li.location:hover{
+    color:white;
+    background-color:#182145;
+    border-radius:12px;
+}
+li.profile{
+    font-size:40px;
+    position:relative;
+    top:15px;
+    cursor:pointer;
+}
+li p{
+    position:relative;
+    text-align:center;
+    width: 200px;
+    height:40px;
+    top:7px;
+}
