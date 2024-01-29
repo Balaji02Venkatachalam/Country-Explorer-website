@@ -4,9 +4,8 @@
 }
 
 .NavBar{
-    background:linear-gradient(to bottom , rgb(151,196,238),white);
+    background:linear-gradient(to bottom , rgb(151,196,238),rgba(255,255,255,0.9));
     padding:15px;
-    margin-bottom: 40px;
     padding-top:20px;
 }
 ul,li{
@@ -20,16 +19,17 @@ img{
 ul{
     position:absolute;
     right:50px; 
+    width: 650px;
+    
 }
 li.location{
     position:relative;
+    top:2px;
     right:80px;
-
 }
-li.p:hover i{
+p:hover i{
     
     color:white;
-
 }
 li.location:hover{
     color:white;
@@ -48,4 +48,98 @@ li p{
     width: 200px;
     height:40px;
     top:7px;
+}
+.fa-solid:hover{
+    color: white;
+}
+.fa-solid{
+    color:#182145;
+}
+hr{
+    top:25px;
+    width:95%;
+    position: relative;
+    left:30px;
+    background-color:#182145;
+    height:0.1px;
+    border: none;
+}
+li.logout{
+    position: relative;
+    top:2px;
+    right: 40px;
+}
+li.logout:hover{
+    color:white;
+    background-color:#182145;
+    border-radius:12px;
+}
+.holiday{
+    color:#182145;
+    position : relative;
+    top:100px;
+  left:30px;
+  display:inline-block;
+  height: 350px;
+}
+.searchbar
+{   
+    width: 550px;
+    color:#182145;
+    position: relative;
+    top:25px;
+    height:5px;
+    padding:20px;
+    padding-left:30px;
+    border-color:#97C4EE;
+    border-style: solid;
+    border-width:3px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+.searchbar:focus{
+    outline:none;
+}
+.searchbar::placeholder{
+    color: rgba(24,33,69,0.6);
+    font-weight: bolder;
+    font-size: 15px;
+}
+.worldtravel{
+    position:relative;
+   display: inline-block;
+   top:-150px;
+   left:900px;
+}
+.holiday > a{
+    display:inline-block;
+    color:#182145;
+    background-color:#97C4EE;
+    font-size: 27px;
+    font-weight: bolder;
+    cursor:pointer;
+    padding:10px;
+    position:relative;
+    top:29px;
+    right:3.8px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    text-decoration:none;
+    text-align:center;
+}
+.holiday>a:hover{
+    color: white;
+}
+.option > p{
+}
+.option{
+    display: inline-block;
+    position: relative;
+    right: 720px;
+    bottom: 225px;
+}
+.option > .list-of-countries{
+    display: inline-block;
+    padding-top: 5px;
+    
 }
