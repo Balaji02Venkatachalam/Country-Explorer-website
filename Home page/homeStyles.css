@@ -55,7 +55,7 @@ li p{
 .fa-solid{
     color:#182145;
 }
-hr{
+.hr1{
     top:25px;
     width:95%;
     position: relative;
@@ -74,13 +74,10 @@ li.logout:hover{
     background-color:#182145;
     border-radius:12px;
 }
-.holiday{
-    color:#182145;
-    position : relative;
-    top:100px;
-  left:30px;
-  display:inline-block;
-  height: 350px;
+.worldtravel{
+        position: absolute;
+        right: 90px;
+        top:200px;
 }
 .searchbar
 {   
@@ -105,6 +102,69 @@ li.logout:hover{
     font-weight: bolder;
     font-size: 15px;
 }
+.find-place{
+    display:inline-block;
+    color:#182145;
+    background-color:#97C4EE;
+    font-size: 27px;
+    font-weight: bolder;
+    cursor:pointer;
+    padding:10px;
+    position:relative;
+    top:29px;
+    right:3.8px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    text-decoration:none;
+    text-align:center;
+}
+.find-place:hover{
+    color: white;
+}
+.holiday{
+    margin-top:100px;
+}
+.searchfield{
+    padding-left:20px;
+}
+p.list-of-countries{
+    position:relative;
+    top:40px;
+    line-height: 23px;
+
+}
+.hr2{
+    width:93%;
+    position: relative;
+    left:43px;
+    background-color: #182145;
+    height:0.1px;
+    border: none;
+}
+/*.holiday{
+    color:#182145;
+    position : relative;
+    top:100px;
+  left:30px;
+  display:inline-block;
+  height: 350px;
+}
+.searchbar
+{   
+    width: 550px;
+    color:#182145;
+    position: relative;
+    top:25px;
+    height:5px;
+    padding:20px;
+    padding-left:30px;
+    border-color:#97C4EE;
+    border-style: solid;
+    border-width:3px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
 .worldtravel{
     position:relative;
    display: inline-block;
@@ -130,16 +190,18 @@ li.logout:hover{
 .holiday>a:hover{
     color: white;
 }
-.option > p{
+.list-of-countries:hover{
+    color:red;
 }
 .option{
     display: inline-block;
     position: relative;
     right: 720px;
-    bottom: 225px;
+    bottom: 205px;
 }
 .option > .list-of-countries{
     display: inline-block;
     padding-top: 5px;
+    cursor: pointer;
     
-}
+} */
