@@ -13,23 +13,24 @@ ul,li{
     font-size:20px;
     text-align:center;
 }
+li{
+    cursor:pointer;
+}
 img{
     display:inline-block;
 }
 ul{
     position:absolute;
-    right:50px; 
+    right:0px;
     width: 650px;
-    
 }
 li.location{
     position:relative;
     top:2px;
     right:80px;
 }
-p:hover i{
-    
-    color:white;
+li:hover i,p:hover i{
+   color:white;
 }
 li.location:hover{
     color:white;
@@ -63,6 +64,7 @@ li p{
     background-color:#182145;
     height:0.1px;
     border: none;
+    margin-top:20px;
 }
 li.logout{
     position: relative;
@@ -100,7 +102,7 @@ li.logout:hover{
 .searchbar::placeholder{
     color: rgba(24,33,69,0.6);
     font-weight: bolder;
-    font-size: 15px;
+    font-size: 17px;
 }
 .find-place{
     display:inline-block;
@@ -122,7 +124,7 @@ li.logout:hover{
     color: white;
 }
 .holiday{
-    margin-top:100px;
+    margin-top:60px;
 }
 .searchfield{
     padding-left:20px;
@@ -131,7 +133,12 @@ p.list-of-countries{
     position:relative;
     top:40px;
     line-height: 23px;
-
+    cursor: pointer;
+    padding:5px
+}
+.list-of-countries:hover{
+    background-color:#97C4EE;
+    border-radius: 12px;
 }
 .hr2{
     width:93%;
@@ -140,68 +147,40 @@ p.list-of-countries{
     background-color: #182145;
     height:0.1px;
     border: none;
+    margin-top:40px;
+    margin-bottom:20px;
 }
-/*.holiday{
+.flex-container div>img{
+    height:150px;
+    width:160px;
+}
+.flex-container{
+    display:flex;
     color:#182145;
-    position : relative;
-    top:100px;
-  left:30px;
-  display:inline-block;
-  height: 350px;
+    justify-content: space-around;
+    margin-top:50px;
+    margin-bottom:20px;
 }
-.searchbar
-{   
-    width: 550px;
-    color:#182145;
-    position: relative;
-    top:25px;
-    height:5px;
-    padding:20px;
-    padding-left:30px;
-    border-color:#97C4EE;
-    border-style: solid;
-    border-width:3px;
-    border-top-left-radius: 12px;
-    border-bottom-left-radius: 12px;
-}
-
-.worldtravel{
-    position:relative;
-   display: inline-block;
-   top:-150px;
-   left:900px;
-}
-.holiday > a{
-    display:inline-block;
-    color:#182145;
-    background-color:#97C4EE;
-    font-size: 27px;
-    font-weight: bolder;
-    cursor:pointer;
-    padding:10px;
-    position:relative;
-    top:29px;
-    right:3.8px;
-    border-top-right-radius: 12px;
-    border-bottom-right-radius: 12px;
-    text-decoration:none;
+.flex-container>div{
     text-align:center;
 }
-.holiday>a:hover{
-    color: white;
+.flex-container div>p{
+    width:150px;
+    font-weight: bolder;
+    font-size: 20px;
+    color:#182145;
+   padding:5px;
+   text-align:center;
+   border-radius: 12px;
 }
-.list-of-countries:hover{
-    color:red;
+footer{
+    height:300px;
+    background-color:#182145;
 }
-.option{
-    display: inline-block;
-    position: relative;
-    right: 720px;
-    bottom: 205px;
+footer >div{
+    display:flex;
+    color: rgba(151,196,238,0.6);
+    font-weight: bolder;
+    margin-top:20px;
+    justify-content: flex-start;
 }
-.option > .list-of-countries{
-    display: inline-block;
-    padding-top: 5px;
-    cursor: pointer;
-    
-} */
