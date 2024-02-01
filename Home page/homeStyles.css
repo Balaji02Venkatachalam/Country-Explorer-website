@@ -2,7 +2,6 @@
     padding:0px;
     margin:0px;
 }
-
 .NavBar{
     background:linear-gradient(to bottom , rgb(151,196,238),rgba(255,255,255,0.9));
     padding:15px;
@@ -15,6 +14,7 @@ ul,li{
 }
 li{
     cursor:pointer;
+    color:#182145;
 }
 img{
     display:inline-block;
@@ -28,6 +28,7 @@ li.location{
     position:relative;
     top:2px;
     right:80px;
+    transition: 0.6s;
 }
 li:hover i,p:hover i{
    color:white;
@@ -36,12 +37,17 @@ li.location:hover{
     color:white;
     background-color:#182145;
     border-radius:12px;
+    transform: scale(1.05);
 }
 li.profile{
     font-size:40px;
     position:relative;
     top:15px;
     cursor:pointer;
+    transition: 0.6s;
+}
+li.profile:hover{
+    transform: scale(1.05);
 }
 li p{
     position:relative;
@@ -49,6 +55,7 @@ li p{
     width: 200px;
     height:40px;
     top:7px;
+    font-weight: bold;
 }
 .fa-solid:hover{
     color: white;
@@ -70,11 +77,14 @@ li.logout{
     position: relative;
     top:2px;
     right: 40px;
+    transition:0.6s;
+    width:fit-content;
 }
 li.logout:hover{
     color:white;
     background-color:#182145;
     border-radius:12px;
+    transform: scale(1.05);
 }
 .worldtravel{
         position: absolute;
@@ -119,6 +129,7 @@ li.logout:hover{
     border-bottom-right-radius: 12px;
     text-decoration:none;
     text-align:center;
+    transition: 0.3s;
 }
 .find-place:hover{
     color: white;
@@ -134,11 +145,14 @@ p.list-of-countries{
     top:40px;
     line-height: 23px;
     cursor: pointer;
-    padding:5px
+    padding:5px;
+    transition: 0.5s;
+   
 }
 .list-of-countries:hover{
     background-color:#97C4EE;
     border-radius: 12px;
+    color: red; 
 }
 .hr2{
     width:93%;
@@ -153,6 +167,10 @@ p.list-of-countries{
 .flex-container div>img{
     height:150px;
     width:160px;
+    transition:0.5s;
+}
+.flex-container div>img:hover{
+    transform : scale(1.1);
 }
 .flex-container{
     display:flex;
@@ -177,10 +195,41 @@ footer{
     height:300px;
     background-color:#182145;
 }
-footer >div{
-    display:flex;
-    color: rgba(151,196,238,0.6);
-    font-weight: bolder;
+footer > div{
+    display: inline-flex;
+    color:#97C4EE;
+    justify-content: space-around;
+    width:100%;
+}
+footer >div > div > h4{
     margin-top:20px;
-    justify-content: flex-start;
+    margin-bottom: 20px;
+    color: rgba(151,196,238,0.6);
+    font-size:20px;
+    text-align:center;
+    font-weight: bolder;
+
+}
+footer >div>div>div{
+    color:#97C4EE;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align:center;
+    padding: 10px;
+    line-height:27px;
+}
+.footerlogo{
+     
+    justify-self: center;
+    align-self: center;
+    font-size: 20px;
+
+}
+.footerlinks{
+    transition: color 0.2s;
+    cursor:pointer;
+}
+.footerlinks:hover{
+   color:white;
+   transform: scale(1.05);
 }
