@@ -1,0 +1,185 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+section{
+    background: linear-gradient(to top , rgba(0,0,0,0.9),rgba(255,255,255,0.1)), url("../assests/temple\ banner.jpg");
+    width:100%;
+    height:620px;    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+.NavBar{
+    display:flex;
+    justify-content: space-between;
+    padding:20px;
+}
+.NavBar>a{
+    text-decoration: none;
+    color:#182145;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right:50%;
+    padding:10px;
+    background-color: rgba(255,255,255,0.2);
+    text-align: center;
+    border-radius: 12px;
+    transition: 0.5s;
+}
+.NavBar>a:hover{
+    background-color: white;
+    transform: scale(0.99);
+}
+.NavBar > ul{
+    display:flex;
+    list-style: none;
+    justify-content: space-between;
+    flex-basis: 20%;
+}
+.logout{
+    font-size: 20px;
+    font-weight:bold;
+    text-align:center;
+    background-color: rgba(255,255,255,0.3);
+    padding:8px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.logout:hover{
+    transform: scale(0.99);
+   background-color: white;
+}
+.logout>a{
+    text-decoration: none;
+    color:#182145;
+    text-align: center;
+}
+.fa-circle-user{
+    color:#182145;
+    font-size:35px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.fa-circle-user:hover{
+    color:white;
+    transform : scale(0.99);
+}
+section>input{
+    height: 6%;
+    width:25%;
+    margin-left:1.5%;
+    border-radius:12px;
+    border:none;
+    text-align:center;
+    outline: none;
+    font-size: 20px;
+   margin-bottom:1%;
+}
+section>input::placeholder{
+    font-size: 15px;
+}
+section>button{
+    color:#182145;
+    padding: 10px;
+    border:none;
+    border-radius:12px;
+    margin-left:10%;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: 0.5s;
+}
+section>button:hover{
+    background-color:#182145;
+    color: white;
+    transform: scale(0.99);
+}
+section>h1{
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+    position: relative;
+    text-align:center;
+    top: 160px;
+}
+section>p{
+    font-size:40px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+/*body>h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:40px;
+    background: linear-gradient(to right,white,#97C4EE,white);
+    color: #182145;
+    height: 50px;
+    margin-bottom:30px;
+}*/
+.heading>h1{
+    padding:20px;
+    font-size: 45px;
+   width:fit-content;
+}
+.heading > p{
+    font-size: 20px;
+    padding:20px;
+}.Explore-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top:50px;
+    text-align: center;
+}
+.Explore-f-item{
+    flex-basis: 25%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+.Explore-f-item> a >img{
+    height:160px;
+    width:250px;
+    border-radius: 12px;
+    transition: 0.5s;
+    
+}
+
+.Explore-f-item>.img-text{
+    font-size: 20px;
+    color:#182145;
+    font-weight: bold;
+    margin-top:10px;
+    width:250px;
+    margin-bottom:20px;
+}
+.Explore-f-item:hover img{
+    transform: scale(1.1);
+}
+
+
+.more-btn{
+    font-size:20px;
+    text-align: center;
+    padding:6px;
+    background-color: white;
+    color: black;
+    font-weight: lighter;
+    border: black 1px solid;
+    border-radius:12px;
+    cursor: pointer;
+    transition: 0.5s;
+    display:block;
+    position: relative;
+    left: 47%;
+    margin-bottom:20px;
+}
+.more-btn:hover {
+    transform: scale(1.05);
+}

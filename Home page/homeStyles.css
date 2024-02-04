@@ -152,7 +152,7 @@ p.list-of-countries{
 .list-of-countries:hover{
     background-color:#97C4EE;
     border-radius: 12px;
-    color: red; 
+  
 }
 .hr2{
     width:93%;
