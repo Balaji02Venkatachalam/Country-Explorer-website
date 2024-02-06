@@ -1,6 +1,7 @@
 *{
     padding:0px;
     margin:0px;
+    font-family: 'Poppins', sans-serif;
 }
 .NavBar{
     background:linear-gradient(to bottom , rgb(151,196,238),rgba(255,255,255,0.9));
@@ -15,6 +16,10 @@ ul,li{
 li{
     cursor:pointer;
     color:#182145;
+    border-radius: 12px;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 40px;
 }
 img{
     display:inline-block;
@@ -29,6 +34,27 @@ li.location{
     top:2px;
     right:80px;
     transition: 0.6s;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 12px;
+}
+.dropdown-content{
+    display:none;
+    z-index: 1;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+}
+.dropdown-content a {
+    color:#97c4EE;
+    text-decoration: none;
+    display: block;
+  }
+
+.location:hover .dropdown-content{
+    display:block;
+}
+.dropdown-content a:hover{
+    background-color:  #f1f1f1;
 }
 li:hover i,p:hover i{
    color:white;
@@ -39,15 +65,29 @@ li.location:hover{
     border-radius:12px;
     transform: scale(1.05);
 }
+.logout>a>p{
+    width:fit-content;
+    padding-right:10px;
+    padding-left: 10px;
+}
 li.profile{
     font-size:40px;
     position:relative;
     top:15px;
     cursor:pointer;
     transition: 0.6s;
+    background-color: none;
 }
 li.profile:hover{
     transform: scale(1.05);
+}
+li.logout>a{
+    text-decoration: none;
+    color:#182145;
+    border-radius:12px;
+}
+.logout:hover .logout>a{
+    color:white;
 }
 li p{
     position:relative;
@@ -55,7 +95,6 @@ li p{
     width: 200px;
     height:40px;
     top:7px;
-    font-weight: bold;
 }
 .fa-solid:hover{
     color: white;
@@ -71,20 +110,24 @@ li p{
     background-color:#182145;
     height:0.1px;
     border: none;
-    margin-top:20px;
+    margin-top:30px;
 }
 li.logout{
     position: relative;
     top:2px;
     right: 40px;
     transition:0.6s;
-    width:fit-content;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 12px;
 }
 li.logout:hover{
     color:white;
     background-color:#182145;
     border-radius:12px;
     transform: scale(1.05);
+}
+.logout>a:hover{
+    color:white;
 }
 .worldtravel{
         position: absolute;
@@ -95,16 +138,15 @@ li.logout:hover{
 {   
     width: 550px;
     color:#182145;
-    position: relative;
-    top:25px;
+    display: block;
+   margin-top:20px;
     height:5px;
     padding:20px;
     padding-left:30px;
     border-color:#97C4EE;
     border-style: solid;
     border-width:3px;
-    border-top-left-radius: 12px;
-    border-bottom-left-radius: 12px;
+    border-radius: 12px;
 }
 .searchbar:focus{
     outline:none;
@@ -115,18 +157,16 @@ li.logout:hover{
     font-size: 17px;
 }
 .find-place{
-    display:inline-block;
+    display:block;
     color:#182145;
+    width: fit-content;
     background-color:#97C4EE;
-    font-size: 27px;
+    font-size: 20px;
     font-weight: bolder;
     cursor:pointer;
-    padding:10px;
-    position:relative;
-    top:29px;
-    right:3.8px;
-    border-top-right-radius: 12px;
-    border-bottom-right-radius: 12px;
+    padding:5px;
+    margin-top:10px;
+    border-radius: 12px;
     text-decoration:none;
     text-align:center;
     transition: 0.3s;
@@ -141,8 +181,7 @@ li.logout:hover{
     padding-left:20px;
 }
 p.list-of-countries{
-    position:relative;
-    top:40px;
+    margin-top: 10px;
     line-height: 23px;
     cursor: pointer;
     padding:5px;

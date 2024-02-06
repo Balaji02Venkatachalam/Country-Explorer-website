@@ -1,6 +1,7 @@
 *{
     padding:0px;
     margin:0px;
+    font-family: 'Poppins', sans-serif;
 }
 .NavBar{
     padding:25px;
@@ -46,7 +47,6 @@ ul,li{
 li{
     cursor:pointer;
     color: #182145;
-    font-weight: bold;
     width: fit-content;
     background-color: rgba(255,255,255,0.3);
     border-radius: 12px;
@@ -118,7 +118,10 @@ li.logout{
     transition:0.6s;
     width:fit-content;
 }
-
+.logout>a{
+    text-decoration: none;
+    color:#182145;
+}
 li.logout:hover{
     background-color:white;
     color:#182145;
@@ -233,7 +236,7 @@ input:focus{
     font-size: 20px;
     font-weight: bold;
     z-index: 1;
-    transition:0.5s;
+    transition: 0.5s;
 }
 .Explore-f-item:hover .ratings{
   display: block;

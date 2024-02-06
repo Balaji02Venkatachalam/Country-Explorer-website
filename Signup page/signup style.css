@@ -1,7 +1,7 @@
 *{
     margin:0;
     padding:0;
-    font-family: none;
+    font-family: 'Poppins', sans-serif;
     }
     input:focus{
         outline:none;
@@ -31,15 +31,19 @@
     {
         cursor: pointer;
         color:#182145;
+        background-color:rgba(255,255,255,0.3);
+        border-radius: 12px;
         margin-right: 40px;
         font-size: 20px;
         padding:10px;
         margin-top:10px;
+        transition: 0.6s;
     }
     li:hover{
         color:white;
         background-color:#182145;
-        border-radius:20px;
+        border-radius:12px;
+        transform: scale(0.99);
     }
     h2{
         color:white;
@@ -70,7 +74,7 @@
     }
     .box{
         display:inline-block;
-        height:450px;
+        height:520px;
         width:300px;
         background-color:rgba(255,255,255,0.3);
         border-radius:15px;
@@ -90,15 +94,17 @@
         position:relative;
         text-align: center;
         left: 250px;
-        top: 5px;
+        top:-10px;
         font-weight: bolder;
         border-radius: 12px;
         display: block;
         cursor:pointer;
         border:none;
+        transition: 0.5s;
     }
     button:hover{
         color: white;
+        transform: scale(1.05);
     }
     label{
         display:block;
@@ -118,7 +124,7 @@
         border-width:0px;
         border-color:#182145;
         width:200px;
-        height:30px;
+        padding:3px;
         text-align:center;
         margin-top:5px;
         border-radius:12px;
@@ -143,6 +149,8 @@ color:#97C4EE;
     }
     .box p{
         color: rgba(245, 245, 245, 0.7);
+        position: relative;
+        top:-22px;
     }
     a
     {
@@ -172,14 +180,16 @@ color:#97C4EE;
         margin-left:10px;
         padding-right:20px;
         padding-bottom: 10px;
+        transition: 0.5s;
     }
     a.footerlinks:hover{
         color:white;
         background-color:#97C4EE;
         border-radius:12px;
+        transform: scale(0.99);
     }
     hr{
-        width:40%;
+        width:39.9%;
         display:inline-block;
         background-color:#97C4EE;
         border: none;
@@ -196,9 +206,11 @@ color:#97C4EE;
         border: solid 1px #97C4EE;
         background-color:#97C4EE;
         border-radius: 5px;
+        transition: 0.5s;
       }
     .fa:hover{
         color:white;
+        transform: scale(1.1);
     }
     .footerlogo{
         text-align:center;
@@ -210,6 +222,7 @@ color:#97C4EE;
     .footerlogo a{
         color:#97C4EE;
         padding:10px;
+        transition: 0.5s;
     
     }
     .footerlogo a:hover{
